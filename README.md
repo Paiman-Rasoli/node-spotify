@@ -4,3 +4,7 @@
 <p> we have one route in the application that works as login and refresh token if you pass refresh true from
 front then the code parameter must be refresh token which saved in client </p>
 <p><b>Note</b> for login you should'nt pass refresh to body just send the code which you get from redirect url params</p>
+<h4>ENV: and also add these envs from your spotify dashboard.</h4>
+<p> SPOTIFY_CLIENT </p>
+<p> SPOTIFY_SECRET </p>
+<p> FRONT_URL_SPOTIFY </p>
