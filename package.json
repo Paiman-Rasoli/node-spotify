@@ -1,0 +1,19 @@
+{
+  "name": "spotify-backend",
+  "version": "1.0.0",
+  "description": "handling spotify backend part.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "author": "paiman-rasoli",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
