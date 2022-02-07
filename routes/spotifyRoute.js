@@ -8,7 +8,7 @@ route.post("/connect", (req, res) => {
   const credentials = {
     clientId: process.env.SPOTIFY_CLIENT,
     clientSecret: process.env.SPOTIFY_SECRET,
-    redirectUri: process.env.FRONT_URL_SPOTIFY,
+    redirectUri: process.env.FRONT_URL_REACT,
   };
   let spotifyApi = new spotifyWebApi(credentials);
   // if clients request for refresh
